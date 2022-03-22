@@ -220,3 +220,128 @@
 /*OPÇÕES DE LOGIN*/
 
 /*CARD RIGHT STYLES*/
+
+
+/*RESPONSIVIDADE*/
+
+@media screen and (max-width: 720px) {
+
+    .background-login{
+        background-color: transparent;
+        background-image: url('/src/img/Typing-bro-image.svg');
+        background-size: cover;
+        background-position: 90% 0%
+    }
+
+    .card-login{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .left-side{
+        transition: all 0.3s;
+        display: none;
+
+    }
+
+    .right-side{
+        width: 50vw;
+        height: 80vw;
+        border-radius: 0px;
+        justify-content: start;
+        align-items: center;
+        padding-left: 0;
+        background-color: white;
+        box-shadow: 0px 0px 20px #13678A;
+        border-radius: 10px;
+    }
+
+    .right-side h1{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .card-individual{
+        width: 70vw;
+    }
+
+    .login-data-content{
+        justify-content: center;
+    }
+
+    .buttons-content{
+        justify-content: center;
+    }
+
+    .login-data-content{
+        margin-top: 5px;
+    }
+
+    .right-side div.icons-social-media{
+        justify-content: center;
+        top: 40px;
+    }
+    
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .card-login{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .card-individual{
+        width: 100vw;
+    }
+
+    .left-side{
+        transition: all 0.3s;
+        display: none;
+
+    }
+
+    .right-side{
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0px;
+        justify-content: start;
+        align-items: center;
+        padding-left: 0;
+        background-color: white;
+        box-shadow: 0px 0px 20px #13678A;
+    }
+
+    .right-side h1{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .login-data-content{
+        justify-content: center;
+    }
+
+    .buttons-content{
+        justify-content: center;
+    }
+
+    .login-data-content{
+        margin-top: 5px;
+    }
+
+    .right-side div.icons-social-media{
+        justify-content: center;
+        top: 40px;
+    }
+    
+    
+}
+
