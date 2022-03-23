@@ -228,7 +228,7 @@
 
     .background-login{
         background-color: transparent;
-        background-image: url('/src/img/Typing-bro-image.svg');
+        background-image: url('/Typing-bro-image.svg');
         background-size: cover;
         background-position: 90% 0%
     }
@@ -288,7 +288,7 @@
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
 
     .card-login{
         width: 100vw;
